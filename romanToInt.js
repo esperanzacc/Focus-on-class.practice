@@ -1,26 +1,3 @@
-// var romanToInt = function (s) {
-//   //假設s是III
-//   let currentValue = 0;
-//   for (let c = 0; c < s.length; i++) {
-//     //迴圈的意思
-//     if (s[c] === "I") {
-//       currentValue = currentValue + 1;
-//     } else if (s[c] === "V") {
-//       currentValue = currentValue + 5;
-//     } else if (s[c] === "X") {
-//       currentValue = currentValue + 10;
-//     } else if (s[c] === "L") {
-//       currentValue = currentValue + 50;
-//     } else if (s[c] === "C") {
-//       currentValue = currentValue + 100;
-//     } else if (s[c] === "D") {
-//       currentValue = currentValue + 500;
-//     } else if (s[c] === "M") {
-//       currentValue = currentValue + 1000;
-//     }
-//   }
-// };
-
 var romanToInt = function (s) {
   let currentValue = 0;
   for (let c = 0; c < s.length; c++) {
